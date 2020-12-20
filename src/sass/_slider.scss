@@ -75,13 +75,13 @@
 
   @media screen and (min-width: 768px) {
     font-size: 14px;
-    padding: 43px 36px 6px 60px;
+    padding: 43px 42px 6px 62px;
     margin-bottom: 24px;
   }
 
   @media screen and (min-width: 1200px) {
     font-size: 16px;
-    padding: 43px 54px 6px 50px;
+    padding: 43px 10px 6px 90px;
     margin-bottom: 15px;
   }
 }
@@ -95,6 +95,16 @@
   background-image: url(../images/svg/slider99.svg);
   background-repeat: no-repeat;
   z-index: -1;
+
+  @media screen and (min-width: 768px) {
+    top: 30px;
+    left: 35px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    top: 40px;
+    left: 38px;
+  }
 }
 
 .slider-text-underline {
@@ -104,6 +114,15 @@
     #e1e1e1 0px 1px,
     transparent 1px 31px
   );
+
+  @media screen and (min-width: 768px) {
+    padding: 0;
+    background-image: repeating-linear-gradient(
+      to top,
+      #e1e1e1 0px 2px,
+      transparent 1px 35px
+    );
+  }
 
   @media screen and (min-width: 1200px) {
     padding: 0;
