@@ -133,7 +133,6 @@ main {
   min-height: 106px;
   padding-top: 193px;
   color: #ffffff;
-  width: 218px;
 
   @media screen and (min-width: 768px) {
     padding-top: 102px;
@@ -155,9 +154,10 @@ main {
   line-height: 1.15;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  margin-bottom: 19px;
+
   color: $main-color;
-  width: 200px;
+
+  width: 218px;
 
   @media screen and (min-width: 768px) {
     width: 150px;
@@ -169,20 +169,30 @@ main {
     font-size: 38px;
     line-height: 1.1579;
   }
+}
 
-  span {
-    font-size: 48px;
-    line-height: 0.89;
-    color: #d41443;
+.hero-title-container > span {
+  font-size: 48px;
+  line-height: 0.89;
+  color: #d41443;
 
-    @media screen and (min-width: 768px) {
-      font-size: 34px;
-      line-height: 0.8824;
-    }
-    @media screen and (min-width: 1200px) {
-      font-size: 58px;
-      line-height: 0.8966;
-    }
+  display: inline-block;
+  font-family: "Titan One";
+  font-style: 400;
+  font-weight: normal;
+
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  margin-bottom: 19px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 34px;
+    line-height: 0.8824;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 58px;
+    line-height: 0.8966;
   }
 }
 
