@@ -188,7 +188,7 @@ button {
   top: 0;
   right: 0;
   width: 100%;
-  height: 502px;
+  height: 558px;
   background-color: #e17992;
   padding-top: 60px;
   font-size: 20px;
@@ -233,9 +233,12 @@ button {
   border-radius: 22px;
   background-color: #fff;
   text-align: center;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-button-modal:hover, .header-button-modal:focus {
   background-color: #ecebeb;
+  border: 1px solid #d41443;
 }
 
 .header-add .header-buy-container {
@@ -299,6 +302,8 @@ button {
   font-size: 14px;
   line-height: 1.28;
   color: #fff;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-item > a:focus, .header-item > a:hover {
   color: #d41443;
@@ -347,8 +352,8 @@ button {
   padding-left: 10px;
   padding-right: 10px;
   margin: 0;
-  outline-color: transparent;
-  border: 1px solid transparent;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media screen and (min-width: 1200px) {
   .hero-red-button, .hero-white-button {
@@ -370,6 +375,7 @@ main {
 .hero-white-button:hover, .hero-white-button:focus {
   background: #ecebeb;
   outline-color: transparent;
+  border: 1px solid #d41443;
 }
 
 .hero-red-button {
@@ -558,6 +564,8 @@ main {
   margin-top: 8px;
   border-radius: 50%;
   border: 1px solid transparent;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media screen and (min-width: 1200px) {
   .hero-arrow {
@@ -1111,6 +1119,8 @@ main {
   height: 40px;
   background-color: #fff;
   border-radius: 50%;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .product-icon-link:hover {
   background: #d41443;
@@ -1379,6 +1389,8 @@ main {
   background: #fff;
   border-radius: 22px;
   border-color: transparent;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media screen and (min-width: 768px) {
   .button-manufacture {
@@ -1410,6 +1422,7 @@ main {
   cursor: pointer;
   background: #ecebeb;
   outline: none;
+  border: 1px solid #d41443;
 }
 
 @media screen and (min-width: 768px) {
@@ -1839,7 +1852,7 @@ main {
   padding-right: 20px;
   padding-top: 43px;
   padding-bottom: 43px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
 }
@@ -1885,7 +1898,7 @@ main {
   font-size: 12px;
   line-height: 1.86;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #f0d1a5;
   width: 80px;
   margin-bottom: 25px;
@@ -1904,7 +1917,7 @@ main {
     font-size: 16px;
     line-height: 1.86;
     margin-bottom: 30px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 }
 
@@ -1913,7 +1926,7 @@ main {
   font-size: 12px;
   line-height: 1.86;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #c2e297;
   width: 130px;
   margin-bottom: 25px;
@@ -1932,7 +1945,7 @@ main {
     line-height: 1.86;
     text-align: center;
     margin-bottom: 30px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 }
 
@@ -1963,7 +1976,7 @@ main {
   font-weight: 500;
   font-size: 11px;
   line-height: 1.5;
-  color: #907E82;
+  color: #907e82;
   padding-bottom: 25px;
 }
 @media screen and (min-width: 768px) {
@@ -2004,7 +2017,7 @@ main {
   font-weight: 500;
   font-size: 12px;
   line-height: 1.86;
-  color: #FFA5BA;
+  color: #ffa5ba;
 }
 @media screen and (min-width: 768px) {
   .shops-working-hours {
@@ -2035,7 +2048,7 @@ main {
   padding-top: 25px;
   border-top-width: 1px;
   border-top-style: solid;
-  border-top-color: #E1E1E1;
+  border-top-color: #e1e1e1;
 }
 @media screen and (min-width: 768px) {
   .shops-schedule-1 {
@@ -2054,7 +2067,7 @@ main {
   font-weight: 500;
   font-size: 12px;
   line-height: 1.5;
-  color: #907E82;
+  color: #907e82;
 }
 @media screen and (min-width: 768px) {
   .shops-contacts {
@@ -2076,7 +2089,7 @@ main {
 .shops-contacts-container {
   border-top-width: 1px;
   border-top-style: solid;
-  border-top-color: #E1E1E1;
+  border-top-color: #e1e1e1;
   padding-top: 25px;
 }
 @media screen and (min-width: 1200px) {
@@ -2095,6 +2108,8 @@ main {
   margin-right: auto;
   border-color: transparent;
   border-radius: 22px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media screen and (min-width: 1200px) {
   .shops-button {
@@ -2103,11 +2118,13 @@ main {
 }
 
 .shops-button-2 {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.3;
-  color: #D41443;
+  color: #d41443;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .shops-button-2:hover, .shops-button-2:focus {
   background: #ecebeb;
@@ -2124,11 +2141,11 @@ main {
 }
 
 .shops-button-1 {
-  background: #D41342;
+  background: #d41342;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.3;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .shops-button-1:hover, .shops-button-1:focus {
   background: #ffa5ba;
