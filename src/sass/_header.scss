@@ -1,7 +1,6 @@
-
-* {
-    outline: 1px solid black;
-}
+// * {
+//     outline: 1px solid black;
+// }
 
 .header-section {
   position: relative;
@@ -225,7 +224,8 @@
 
   color: #fff;
 
-  &:focus , &:hover {
+  &:focus,
+  &:hover {
     color: #d41443;
   }
 
@@ -234,7 +234,6 @@
   }
 
   @media screen and (min-width: 1200px) {
-    
     padding-left: 35px;
 
     font-size: 16px;
@@ -243,8 +242,6 @@
     border: none;
   }
 }
-
-
 
 .header-item {
   height: 100%;
