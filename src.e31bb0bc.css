@@ -233,6 +233,7 @@ button {
   border-radius: 22px;
   background-color: #fff;
   text-align: center;
+  border: none;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -371,6 +372,7 @@ main {
 .hero-white-button {
   background: #fff;
   color: #d41443;
+  border: none;
 }
 .hero-white-button:hover, .hero-white-button:focus {
   background: #ecebeb;
@@ -382,6 +384,7 @@ main {
   margin-right: 8px;
   color: #fff;
   background: #d41443;
+  border: none;
 }
 .hero-red-button:hover, .hero-red-button:focus {
   transform: scale(1.1);
