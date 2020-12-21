@@ -31,6 +31,7 @@ main {
   @extend %btn;
   background: $main-color;
   color: #d41443;
+  border: none;
 
   &:hover,
   &:focus {
@@ -45,6 +46,7 @@ main {
   margin-right: 8px;
   color: $main-color;
   background: $accent-color;
+  border: none;
 
   &:hover,
   &:focus {
