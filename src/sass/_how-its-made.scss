@@ -248,6 +248,9 @@
   border-radius: 22px;
   border-color: transparent;
 
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
   @media screen and(min-width:768px) {
     margin-bottom: 66px;
   }
@@ -275,6 +278,7 @@
   cursor: pointer;
   background: #ecebeb;
   outline: none;
+  border: 1px solid $accent-color;
 }
 
 .manufacture-list {

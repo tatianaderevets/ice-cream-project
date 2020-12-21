@@ -1,9 +1,3 @@
-%transition {
-  transition-duration: 250ms;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 %btn {
   border-radius: 20px;
   font-family: 'DM Sans';
@@ -18,8 +12,8 @@
   padding-right: 10px;
   margin: 0;
 
-  outline-color: transparent;
-  border: 1px solid transparent;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   @media screen and (min-width: 1200px) {
     font-size: 14px;
@@ -42,6 +36,7 @@ main {
   &:focus {
     background: #ecebeb;
     outline-color: transparent;
+    border: 1px solid $accent-color;
   }
 }
 
@@ -177,7 +172,7 @@ main {
   color: #d41443;
 
   display: inline-block;
-  font-family: "Titan One";
+  font-family: 'Titan One';
   font-style: 400;
   font-weight: normal;
 
@@ -238,6 +233,9 @@ main {
   border-radius: 50%;
 
   border: 1px solid transparent;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   @media screen and (min-width: 1200px) {
     margin-top: 20px;
