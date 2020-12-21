@@ -398,7 +398,7 @@ main {
   height: 502px;
   position: relative;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .hero {
     background-image: url(/ellipse_hero.98e7cb1f.png);
     background-repeat: no-repeat;
@@ -576,13 +576,13 @@ main {
   }
 }
 .hero-arrow:hover, .hero-arrow:focus, .hero-arrow:hover svg, .hero-arrow:focus svg {
-  background-color: #d41443;
+  background-color: #fff;
   fill: #fff;
   border: 1px solid transparent;
 }
 
 .hero-arrow-svg {
-  fill: #d41443;
+  fill: #fff;
 }
 .hero-arrow-svg:hover, .hero-arrow-svg:focus {
   fill: #fff;
